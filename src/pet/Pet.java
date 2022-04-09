@@ -52,7 +52,7 @@ class Pet {
 		this.location=location;
 	}
 	
-	
+	//the main method
 	public static void main(String[] args) {
 		Pet tony = new Pet("Tony", 3, "Miami", "Bird");
 		System.out.println(tony.getName());
